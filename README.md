@@ -50,7 +50,7 @@ The app will then use the [beacons.get](https://developers.google.com/beacons/pr
 - ![lock](app/src/main/res/drawable-hdpi/ic_action_lock.png) Registered to someone else
 - ![help](app/src/main/res/drawable-hdpi/ic_action_help.png) Unknown status
 
-Clicking on an entry takes you to the management screen for that beacon. There you'll be able to register the beacon, update the location, stability, description, activation status, and create and delete simple attachment data. Fields that are editable are marked with the ![mode-edit](BeaconServiceDemoApp/app/src/main/res/drawable-mdpi/ic_action_mode_edit.png) icon.
+Clicking on an entry takes you to the management screen for that beacon. There you'll be able to register the beacon, update the location, stability, description, activation status, and create and delete simple attachment data. Fields that are editable are marked with the ![mode-edit](app/src/main/res/drawable-mdpi/ic_action_mode_edit.png) icon.
 
 ## FAQ
 Q. When I launch the app my beacons appear to be locked! Clicking on them says "Not Authorized"!
