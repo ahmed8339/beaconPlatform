@@ -45,10 +45,10 @@ When launched click the `scan` button to discover any nearby [Eddystone](https:/
 The app will then use the [beacons.get](https://developers.google.com/beacons/proximity/reference/rest/v1beta1/beacons/get) method to fetch the status of each beacon, updating the beacons icon as the results are returned. The icons correspond to the beacon's status:
 
 - ![check-circle](beaconPlatform/app/src/main/res/drawable-hdpi/ic_action_check_circle.png) Registered to you and currently active (green) or inactive (orange)
-- ![highlight-off](beaconPlatform/app/src/main/res/drawable-hdpi/ic_action_highlight_off.png) Registered to you and decommissioned
-- ![lock-open](beaconPlatform/app/src/main/res/drawable-hdpi/ic_action_lock_open.png) Unregistered
-- ![lock](beaconPlatform/app/src/main/res/drawable-hdpi/ic_action_lock.png) Registered to someone else
-- ![help](beaconPlatform/app/src/main/res/drawable-hdpi/ic_action_help.png) Unknown status
+- ![highlight-off](app/src/main/res/drawable-hdpi/ic_action_highlight_off.png) Registered to you and decommissioned
+- ![lock-open](app/src/main/res/drawable-hdpi/ic_action_lock_open.png) Unregistered
+- ![lock](app/src/main/res/drawable-hdpi/ic_action_lock.png) Registered to someone else
+- ![help](app/src/main/res/drawable-hdpi/ic_action_help.png) Unknown status
 
 Clicking on an entry takes you to the management screen for that beacon. There you'll be able to register the beacon, update the location, stability, description, activation status, and create and delete simple attachment data. Fields that are editable are marked with the ![mode-edit](BeaconServiceDemoApp/app/src/main/res/drawable-mdpi/ic_action_mode_edit.png) icon.
 
