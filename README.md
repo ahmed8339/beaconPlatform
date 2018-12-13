@@ -44,7 +44,7 @@ When launched click the `scan` button to discover any nearby [Eddystone](https:/
 
 The app will then use the [beacons.get](https://developers.google.com/beacons/proximity/reference/rest/v1beta1/beacons/get) method to fetch the status of each beacon, updating the beacons icon as the results are returned. The icons correspond to the beacon's status:
 
-- ![check-circle](beaconPlatform/app/src/main/res/drawable-hdpi/ic_action_check_circle.png) Registered to you and currently active (green) or inactive (orange)
+- ![check-circle](app/src/main/res/drawable-hdpi/ic_action_check_circle.png) Registered to you and currently active (green) or inactive (orange)
 - ![highlight-off](app/src/main/res/drawable-hdpi/ic_action_highlight_off.png) Registered to you and decommissioned
 - ![lock-open](app/src/main/res/drawable-hdpi/ic_action_lock_open.png) Unregistered
 - ![lock](app/src/main/res/drawable-hdpi/ic_action_lock.png) Registered to someone else
