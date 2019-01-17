@@ -23,5 +23,5 @@ class Constants {
   static final int REQUEST_CODE_PLACE_PICKER = 1003;
 
   static final String AUTH_SCOPE = "oauth2:https://www.googleapis.com/auth/userlocation.beacon.registry";
-  static final String PREFS_NAME = "com.google.sample.beaconservice.Prefs";
+  static final String PREFS_NAME = "org.kp.sample.beaconservice.Prefs";
 }
